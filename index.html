@@ -1,37 +1,130 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Radha Jap</title>
+    <title>Radha Jap - Divine Edition | Download Now</title>
     <style>
-        body { font-family: sans-serif; line-height: 1.6; padding: 20px; max-width: 800px; margin: auto; color: #333; }
-        h1 { color: #6750A4; }
-        h2 { color: #333; border-bottom: 1px solid #eee; padding-bottom: 10px; }
+        :root {
+            --gold: #FFD700;
+            --purple: #6750A4;
+            --dark: #0D0D0D;
+            --glass: rgba(255, 255, 255, 0.1);
+        }
+        body {
+            background-color: var(--dark);
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            padding: 40px 20px;
+        }
+        .header {
+            margin-bottom: 40px;
+        }
+        h1 {
+            color: var(--gold);
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            color: #AAAAAA;
+        }
+        .download-btn {
+            background: linear-gradient(135deg, var(--purple), #4A148C);
+            color: white;
+            padding: 18px 40px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            border: 2px solid var(--gold);
+            box-shadow: 0 10px 30px rgba(103, 80, 164, 0.4);
+            display: inline-block;
+            margin-top: 30px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .download-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 40px rgba(103, 80, 164, 0.6);
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 60px;
+        }
+        .feature-card {
+            background: var(--glass);
+            padding: 20px;
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+        }
+        .feature-card h3 {
+            color: var(--gold);
+            margin-bottom: 10px;
+        }
+        .footer {
+            margin-top: auto;
+            padding: 40px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        .footer a {
+            color: var(--gold);
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
-    <h1>Privacy Policy</h1>
-    <p>Effective Date: July 30, 2026</p>
-    <p>Radha Jap respects your privacy. We are committed to protecting your personal information and your right to privacy.</p>
+    <div class="container">
+        <div class="header">
+            <h1>Radha Jap</h1>
+            <p class="subtitle">Your Ultimate Divine Companion</p>
+        </div>
 
-    <h2>Information We Collect</h2>
-    <p>We collect your email address only for authentication using Firebase Authentication to provide a secure login experience.</p>
+        <div class="feature-card" style="margin-bottom: 40px;">
+            <p style="font-size: 1.1rem; line-height: 1.6;">
+                Experience the spiritual energy with our professional <b>Naam Jap Counter</b>,
+                <b>Real-time Satsang</b>, and <b>AI Gita Insights</b>.
+                Join thousands of devotees on a collective journey.
+            </p>
+        </div>
 
-    <h2>How We Use Your Information</h2>
-    <ul>
-        <li>To create and manage your spiritual account.</li>
-        <li>To allow synchronization of your jap progress, goals, and journal across your devices.</li>
-        <li>To maintain your rank on the global leaderboard.</li>
-    </ul>
+        <!-- This link now points to your GitHub Releases -->
+        <a href="https://github.com/harshzynx/radhajap-privacy/releases/latest/download/RADHA_JAP_AMAZON_STORE.apk" class="download-btn">
+            📥 DOWNLOAD APK (FREE)
+        </a>
 
-    <h2>Data Deletion</h2>
-    <p>You have full control over your data. You can delete your account and all associated data (including jap history and journal entries) at any time through the <b>Settings</b> menu within the app.</p>
+        <div class="features">
+            <div class="feature-card">
+                <h3>Mala Counter</h3>
+                <p>Circular glassmorphic counter with haptic feedback.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Satsang Chat</h3>
+                <p>Connect and chat with your spiritual groups in real-time.</p>
+            </div>
+            <div class="feature-card">
+                <h3>AI Gita Mitr</h3>
+                <p>Deep spiritual explanations of Bhagavad Gita in Hindi.</p>
+            </div>
+        </div>
 
-    <h2>Data Security</h2>
-    <p>We use industry-standard security measures provided by Google Firebase to protect your data from unauthorized access.</p>
-
-    <h2>Contact Us</h2>
-    <p>If you have any questions about this Privacy Policy, you can contact us at: [radhajap9@gmail.com]</p>
+        <div class="footer">
+            <p>&copy; 2026 Radha Jap App. All Rights Reserved.</p>
+            <p><a href="https://harshzynx.github.io/radhajap-privacy/">Privacy Policy</a> | <a href="mailto:support@radhajap.com">Contact Support</a></p>
+        </div>
+    </div>
 </body>
 </html>
